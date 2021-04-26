@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Entity
 public class Customerinfo {
 
@@ -15,8 +16,8 @@ public class Customerinfo {
 	private String firstname;
 	private String lastname;
 	private String grade;
-	
-	
+
+
 	public String getGrade() {
 		return grade;
 	}

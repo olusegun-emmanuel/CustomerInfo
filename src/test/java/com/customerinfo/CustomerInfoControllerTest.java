@@ -46,7 +46,7 @@ public class CustomerInfoControllerTest {
     @Test
     @Order(3)
     public void getAddressIdTest_Failure(){
-        Integer addressId = 4;
+        Integer addressId = 8;
         Optional<Customerinfo> customerAddr =  customerInfoController.getCustomerInfoById(addressId);
         Assertions.assertSame(Optional.empty(), customerAddr);
     }
@@ -63,7 +63,7 @@ public class CustomerInfoControllerTest {
         customerInfo.setGrade("B2");
         String customerSaveReturned =  customerInfoController.saveCustomerInfo(customerInfo);
         assertNotNull(customerSaveReturned);
-        Assertions.assertSame("Created successfully", customerSaveReturned);
+        Assertions.assertSame("CustomerInfo is created successfully", customerSaveReturned);
     }
 
 
