@@ -1,8 +1,8 @@
 package com.customerinfo.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import com.customerinfo.beans.Customerinfo;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface CustomerInfoRepository extends JpaRepository<Customerinfo, Integer>{
+public interface CustomerInfoRepository extends JpaRepository<Customerinfo, Integer> {
 
 }

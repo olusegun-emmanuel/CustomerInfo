@@ -12,4 +12,11 @@ public class CustomerInfoList {
 	public void setCustomerinfo(List<Customerinfo> customerinfo) {
 		this.customerinfo = customerinfo;
 	}
+
+	@Override
+	public String toString() {
+		return "CustomerInfoList{" +
+				"customerinfo=" + customerinfo.toString() +
+				'}';
+	}
 }

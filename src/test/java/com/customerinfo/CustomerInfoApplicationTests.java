@@ -1,10 +1,10 @@
-package com.hr.info;
+package com.customerinfo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HrApplicationTests {
+class CustomerInfoApplicationTests {
 
 	@Test
 	void contextLoads() {

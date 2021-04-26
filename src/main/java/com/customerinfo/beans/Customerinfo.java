@@ -56,7 +56,15 @@ public class Customerinfo {
 		this.lastname = lastname;
 		this.grade = grade;
 	}
-	
-	
-	
+
+	@Override
+	public String toString() {
+		return "Customerinfo{" +
+				"empid=" + empid +
+				", id='" + id + '\'' +
+				", firstname='" + firstname + '\'' +
+				", lastname='" + lastname + '\'' +
+				", grade='" + grade + '\'' +
+				'}';
+	}
 }
